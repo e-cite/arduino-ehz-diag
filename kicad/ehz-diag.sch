@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "EHZ Diagnose-Tool 1-Kanal mit Buzzer"
-Date "2021-08-29"
-Rev "1.0"
+Date "2021-09-05"
+Rev "1.1"
 Comp "Andreas Dolp"
 Comment1 "GitHub: e-cite/ehz-diag"
 Comment2 ""
@@ -232,7 +232,7 @@ F 3 "http://www.osram-os.com/Graphics/XPic2/00101811_0.pdf/SFH%20309,%20SFH%2030
 	1    0    0    -1  
 $EndComp
 Text Notes 3150 3800 0    50   ~ 0
-Beschriftung:\nC: Collector / Pin 4 / braun\nA: Anode / Pin 3 / gelb\nK: Kathode / Pin 2 / grün\nE: Emitter / Pin 1 / weiß\n\n
+Beschriftung:\nC: Collector / Pin 4 / weiß\nA: Anode / Pin 3 / gelb\nK: Kathode / Pin 2 / grün\nE: Emitter / Pin 1 / braun\n\n
 $Comp
 L Device:R R4
 U 1 1 612C0B20
@@ -266,8 +266,8 @@ $Comp
 L Device:R R2
 U 1 1 6129C2D2
 P 6900 3300
-F 0 "R2" V 7100 3300 50  0000 C CNN
-F 1 "10k" V 7000 3300 50  0000 C CNN
+F 0 "R2" H 7000 3350 50  0000 L CNN
+F 1 "10k" H 7000 3250 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 6830 3300 50  0001 C CNN
 F 3 "~" H 6900 3300 50  0001 C CNN
 	1    6900 3300
